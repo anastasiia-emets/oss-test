@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Calibri;
+  src: url("../../fonts/8277.ttf");
+}
+.footer {
+  margin: 40px 49px 70px 47px;
+
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+  background-color: #ffffff;
+  position: relative;
+
+  height: 55px;
+  &__text {
+    width: 434px;
+    position: absolute;
+    top: 50%;
+
+    height: 14px;
+    margin-top: -7px;
+    color: #545454;
+    font-family: Calibri;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 22px;
+  }
+}

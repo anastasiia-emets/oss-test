@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Rockwell; 
+  src: url("../../fonts/13082.otf");
+ }
+.header {
+  &__logo {
+ 
+    width: 199px;
+    height: 80px;
+    opacity: 0.28;
+    color: #545454;
+    font-family: Rockwell;
+    font-size: 89px;
+    font-weight: 400;
+    padding-top:40px;
+    text-align: center;
+    display:flex;
+    margin:0 auto;
+   
+  }
+}

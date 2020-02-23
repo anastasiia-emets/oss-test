@@ -1,0 +1,60 @@
+.info {
+  margin: 40px 49px 15px 47px;
+
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  padding-right: 13px;
+  &__img {
+    width: 45%;
+
+    margin-top: 10px;
+  }
+  &-item1 {
+    width: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  &__header {
+    /* Style for "Welcome to" */
+    width: 165px;
+    height: 14px;
+    color: #000000;
+    font-family: Rockwell;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 18px;
+  }
+  &-item2 {
+    margin-left: 14px;
+    width: 73%;
+  }
+  &__description {
+    text-align: justify;
+    text-indent: 40px;
+    height: 83px;
+    color: #343433;
+    font-family: Rockwell;
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 12px;
+  }
+  &__link {
+    /* Style for "more..." */
+    width: 40px;
+    height: 8px;
+    color: #000000;
+    font-family: Rockwell;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+}

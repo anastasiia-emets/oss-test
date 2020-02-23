@@ -1,0 +1,23 @@
+
+@import "../components/header/header";
+@import "../components/navigation/navigation";
+@import "../components/main-photo/main-photo";
+@import "../components/gallery/gallery";
+@import "../components/info/info";
+@import "../components/footer/footer";
+
+@import "adap";
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("../images/Background.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.main-wrapper {
+  width: 100%;
+  height: 100%;
+}
