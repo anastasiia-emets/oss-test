@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: Rockwell;
-  src: url("../../fonts/13082.otf");
+  src: url("../fonts/13082.otf");
 }
 
 .header__logo {
@@ -65,7 +65,7 @@
   line-height: 112.9px;
   opacity: 0.4;
   padding-left: 16px;
-  background-image: url("../../images/search.png");
+  background-image: url("../images/search.png");
   background-repeat: no-repeat;
   /*Убираем повтор изображения*/
   background-position: right;
@@ -99,7 +99,7 @@
 
 @font-face {
   font-family: Arial;
-  src: url("../../fonts/16063.otf");
+  src: url("../fonts/16063.otf");
 }
 
 .gallery {
@@ -245,7 +245,7 @@
 
 @font-face {
   font-family: Calibri;
-  src: url("../../fonts/8277.ttf");
+  src: url("../fonts/8277.ttf");
 }
 
 .footer {
