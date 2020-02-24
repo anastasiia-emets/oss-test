@@ -18,6 +18,9 @@
     font-weight: 400;
     margin-right: 60px;
     text-decoration: none;
+    &:hover{
+      opacity: 0.8;
+    }
   }
   &__search {
     margin-right: 14px;

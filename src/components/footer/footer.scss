@@ -11,10 +11,10 @@
 
   height: 55px;
   &__text {
-    width: 434px;
+
     position: absolute;
     top: 50%;
-
+    word-spacing: 5px;
     height: 14px;
     margin-top: -7px;
     color: #545454;
@@ -23,4 +23,5 @@
     font-weight: 400;
     padding-left: 22px;
   }
+
 }
